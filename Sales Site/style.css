@@ -1,0 +1,46 @@
+/*---- General ----*/
+* {margin: 0; padding: 0;}
+body {background: url(images/bg.jpg) top center; font: normal 15px/26px "Lato"; color: #666;}
+.container {width: 1200px; margin: 0 auto; position: relative;}
+.right {float: right;}
+.left {float: left;}
+.clear {clear: both;}
+.none {display: none;}
+a img {outline: none; border: none;}
+
+
+
+/*---- Header ----*/
+header {background: rgba(0,0,0, .8); color: #fefefe; padding: 20px 0; width: 100%;}
+header p {font-size: 18px; font-weight: 100; text-shadow: 1px 1px 1px #000;}
+header p span {font-size: 32px; margin: 0 15px 0 0;}
+.buy-button {background: #e20f1e; color: #fefefe; text-decoration: none; border-radius: 10px; padding: 5px 25px; font-weight: 300; border: 1px solid rgb(255,118,126); transition: background .2s ease-in; margin: 0 0 0 20px;}
+.buy-button:hover {background: rgb(255,118,126); transition: background .2s ease-in;}
+.demo-button {background: none; color: #fefefe; text-decoration: none; border-radius: 10px; padding: 5px 25px; font-weight: 300; border: 1px solid #fff; transition: background .2s ease-in;}
+.demo-button:hover {background: rgba(255,255,255, .4); transition: background .2s ease-in;}
+
+
+
+/*---- Hero ----*/
+.hero {margin: 40px 0;}
+.hero h1 {font-size: 80px; line-height: 80px; font-weight: 100; color: #fefefe; text-align: center; background: rgba(0,0,0, .6); text-shadow: 1px 1px 1px #000; padding: 0 0 15px;}
+.hero h2 {background: rgba(204,14,28, .8); font-weight: 300; font-size: 22px; line-height: 22px; color: #fff; padding: 8px 20px; text-align: center;}
+.hero .buy-button, .hero .demo-button, .content .buy-button {padding: 15px 25px; font-size: 20px;}
+.hero .demo-button {background: rgba(255,255,255, .8); color: #222;}
+.hero .demo-button:hover {background: rgba(255,255,255, .4);}
+.buttons {text-align: center; margin: 40px 0 0;}
+
+
+
+/*---- Content ----*/
+.white {background: #fefefe; width: 100%; padding: 40px;}
+.content h2 {font-size: 30px; color: #222; font-weight: 300; text-align: center; border-bottom: 1px solid #222; width: 60%; position: relative; left: 20%; padding: 0 0 20px; margin: 0 0 20px;}
+.content p {margin: 0 0 40px;}
+.content .buy-button {margin: 0 0 40px; position: relative; left: 42%;}
+
+
+
+/*---- Footer ----*/
+footer {background: rgba(0,0,0, .8); color: #fefefe; padding: 20px 0; width: 100%;}
+footer a {color: #e20f1e; text-decoration: none; transition: all .2s ease-in;}
+footer a:hover {color: rgb(255,118,126); transition: all .2s ease-in;}
