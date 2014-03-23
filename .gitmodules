@@ -1,0 +1,3 @@
+[submodule "Theme/restaurant"]
+	path = Theme/restaurant
+	url = https://github.com/rjmccollam/Bare-WP.git
